@@ -80,6 +80,33 @@ body {
   color: #404bbf;
   outline: none;
 }
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+.header-container {
+  display: flex;
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.nav {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  margin-right: 76px;
+}
+.nav-list-header {
+  display: flex;
+  gap: 40px;
+}
+.nav-header-item {
+  padding: 24px 0;
+}
+.address-section ul {
+  display: flex;
+  gap: 40px;
+}
 /* end region header */
 /* region 1 */
 
