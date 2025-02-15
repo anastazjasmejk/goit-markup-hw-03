@@ -108,9 +108,12 @@ body {
 .nav-header-item {
   padding: 24px 0;
 }
-.address-section ul {
+.address-section {
   display: flex;
   gap: 40px;
+}
+.address-section {
+  padding: 24px 0;
 }
 .address-info {
   text-decoration: none;
@@ -118,17 +121,19 @@ body {
 /* end region header */
 /* region 1 */
 
-.main-header-section {
+.sec-main {
   background-color: #2e2f42;
 }
-.main-header {
+.container {
+}
+.title-main {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
 }
-.button-primary {
+.btn-main {
   background-color: #4d5ae5;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
@@ -140,11 +145,23 @@ body {
   border: none;
 }
 
-.button-primary:hover,
-.button-primary:focus {
+.btn-main:hover,
+.btn-main:focus {
   background-color: #404bbf;
   color: #fff;
   outline: none;
+}
+.main-header {
+  max-width: 496px;
+}
+.btn-main {
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  background-color: #4d5ae5;
+  border-radius: 4px;
+  cursor: pointer;
 }
 /* end region 1 */
 /* region 2 */
@@ -161,6 +178,9 @@ body {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #434455;
+}
+.advantages-section {
+  padding: 188px 0;
 }
 /*end region 2 */
 
