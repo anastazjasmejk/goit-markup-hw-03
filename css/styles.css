@@ -284,7 +284,7 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
-  margin-bottom: 8px;
+  margin-bottom: 72px;
 }
 
 .list-section-portfolio img[alt='img Banking App'] {
@@ -296,6 +296,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .paragraph-portfolio {
   font-size: 16px;
