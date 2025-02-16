@@ -185,7 +185,7 @@ img {
   gap: 24px;
 }
 .li-section {
-  flex-basis: calc((100% - 3 * 24px) / 4);
+  width: calc((100% - 72px) / 4);
   margin: 0;
   padding-left: 0;
 }
@@ -284,6 +284,7 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .list-section-portfolio img[alt='img Banking App'] {
