@@ -24,6 +24,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 .logo-style {
   font-weight: 700;
@@ -33,50 +34,50 @@ body {
   text-transform: uppercase;
   color: #2e2f42;
 }
-.nav-list-header {
+.nav-list {
   list-style: none;
   margin: 0;
-  color: #2e2f42;
+  padding: 0;
+  display: flex;
+  gap: 40px;
 }
-.nav-header-item {
+.nav-item {
+  padding: 24px 0;
+}
+.nav-link {
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #2e2f42;
-}
-
-.item-nav-link {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 150%;
-  letter-spacing: 0.02em;
-  color: #434455;
   text-decoration: none;
-  color: #2e2f42;
 }
-
-.item-nav-link:hover,
-.item-nav-link:focus {
+.nav-link:hover,
+.nav-link:focus {
   color: #404bbf;
 }
-.address-section {
+.contact-info {
   font-style: normal;
 }
-.address-info {
+.contact-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 40px;
+}
+.contact-item:last-child {
+  margin-right: 0;
+}
+.contact-link {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
   text-decoration: none;
 }
-.address-info:hover,
-.address-info:focus {
-  color: #404bbf;
-  outline: none;
-}
-.contact-link_1:hover,
-.contact-link_1:focus {
+.contact-link:hover,
+.contact-link:focus {
   color: #404bbf;
   outline: none;
 }
@@ -90,33 +91,8 @@ body {
 }
 .header-container {
   display: flex;
-  width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px;
-}
-.nav {
-  display: flex;
+  justify-content: space-between;
   align-items: center;
-}
-.logo {
-  margin-right: 76px;
-}
-.nav-list-header {
-  display: flex;
-  gap: 40px;
-}
-.nav-header-item {
-  padding: 24px 0;
-}
-.address-section {
-  display: flex;
-  gap: 40px;
-}
-.address-section {
-  padding: 24px 0;
-}
-.address-info {
-  text-decoration: none;
 }
 /* end region header */
 /* region 1 */
