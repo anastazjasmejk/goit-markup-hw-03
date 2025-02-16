@@ -5,6 +5,17 @@ a {
 ul,
 ol {
   list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
 }
 
 button {
@@ -186,8 +197,6 @@ img {
 }
 .li-section {
   width: calc((100% - 72px) / 4);
-  margin: 0;
-  padding-left: 0;
 }
 /*end region 2 */
 
