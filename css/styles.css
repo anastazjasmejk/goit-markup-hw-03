@@ -34,6 +34,10 @@ body {
   text-transform: uppercase;
   color: #2e2f42;
 }
+.nav {
+  display: flex;
+  align-items: center;
+}
 .nav-list {
   list-style: none;
   margin: 0;
@@ -42,7 +46,7 @@ body {
   gap: 40px;
 }
 .nav-item {
-  padding: 24px 0;
+  padding: 24px 0 24px;
 }
 .nav-link {
   font-weight: 500;
@@ -99,10 +103,10 @@ body {
 
 .sec-main {
   background-color: #2e2f42;
-}
-.container {
+  padding: 188px 0;
 }
 .title-main {
+  max-width: 496px;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
@@ -141,12 +145,27 @@ body {
 }
 /* end region 1 */
 /* region 2 */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+.subtitle-advantages-section {
+  padding: 120px 0;
+}
 .subtitle-advantages {
   font-weight: 500;
   font-size: 20px;
   line-height: 120%;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .text-info {
   font-weight: 400;
@@ -158,9 +177,19 @@ body {
 .advantages-section {
   padding: 188px 0;
 }
+.ul-section-two {
+  display: flex;
+  gap: 24px;
+}
+.li-section-two {
+  width: calc((100% - 72px) / 4);
+}
 /*end region 2 */
 
 /* redion 3  */
+.img {
+  display: block;
+}
 .section-title-team {
   background-color: #f4f4fd;
 }
@@ -172,9 +201,29 @@ body {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
+.ul-sectiont-team {
+  display: flex;
+  gap: 24px;
+}
+.container-name-one {
+  padding: 32px 0;
+}
+.container-name-two {
+  padding: 32px 0;
+}
+.container-name-three {
+  padding: 32px 0;
+}
+.container-name-four {
+  padding: 32px 0;
+}
+
 .style-text-list {
   background: #fff;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 .name-team-section {
   font-weight: 500;
